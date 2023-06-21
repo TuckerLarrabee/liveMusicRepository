@@ -4,14 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Music Library
+
+    </title>
 </head>
 <body>
-    <h1>pCloud Testing</h1> <br>    
-
-    <!-- <input type="button" value="PLAY" onclick="play()"> -->
-    <audio controls id="audio" src="./andrew_bird.wav"></audio>
-
+    <div id="bigContainer">
+        <div id="playback-widgets-container">
+            <div class="audio-container">
+                <!-- <img src="artist_image.jpg" alt="Artist Image"> -->
+                <div class="audio-info">
+                <h2>Tedeschi Trucks Band</h2>
+                <p>Midnight in Harlem</p>
+                </div>
+                <audio controls id="audio" src="./andrew_bird.wav"></audio>
+            </div> 
+            <div class="audio-container">
+                <!-- <img src="artist_image.jpg" alt="Artist Image"> -->
+                <div class="audio-info">
+                <h2>Ziggy Marley</h2>
+                <p>Roanoke, Va</p>
+                </div>
+                <audio controls id="audio" src="./andrew_bird.wav"></audio>
+            </div> 
+            <div class="audio-container">
+                <!-- <img src="artist_image.jpg" alt="Artist Image"> -->
+                <div class="audio-info">
+                <h2>Los Lobos</h2>
+                <p>Charlottesville, Va</p>
+                </div>
+                <audio controls id="audio" src="./andrew_bird.wav"></audio>
+            </div> 
+        </div>
+        <div id="browseContainer">
+            <h1>Browse Library:</h1>    
+            <ul id="letterContainer">
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+                <li>E</li>
+                <li>F</li>
+                <li>G</li>
+                <li>H</li>
+            </ul>
+        </div>
+    </div>
         
     <script src="./index.js"></script>
 </body>
