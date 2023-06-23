@@ -1,16 +1,13 @@
-// let audio = new Audio("https://u.pcloud.link/publink/show?code=XZPVDPVZRtapy2x1XnjJHeF7Y2tWKX6UkXwk");
-
-
-// let testButton = document.querySelector(".playAudio");
-
-// testButton.addEventListener(audio.play())
-
+let artistSearchBtn = document.querySelector(".artistSearchBtn")
+console.log("🚀 ~ file: index.js:2 ~ artistSearchBtn:", artistSearchBtn)
 
 function play() {
     var audio = document.getElementById("audio");
     audio.play();
   }
 
-// let results = ['WINNER'];
+artistSearchBtn.addEventListener("click", (e) => {
+  e.preventDefault()
 
-// console.log(results.pop())
+  console.log("Hello")
+})
