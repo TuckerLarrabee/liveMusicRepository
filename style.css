@@ -21,7 +21,7 @@ body {
     align-items: center;
     flex-direction: column;
     /* gap: 10px; */
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI', 'monospace';
     font-size: 16px;
     color: #333;
 }
@@ -207,7 +207,8 @@ a {
   width: 100%;
   margin: 0;
   padding: 10px 0;
-  font: 700 20px 'Segoe UI';
+  font: 700 20px 'Segoe UI', monospace;
+  /* font-family: 'Segoe UI', monospace; */
 }
 
 .link1:hover {
@@ -220,7 +221,8 @@ a {
 .browseByText {
   width: 100%;
   margin: 15px 0 0 0;
-  font: 700 20px 'Segoe UI';
+  font: 700 20px 'Segoe UI', monospace;
+  /* font-family: 'Segoe UI', monospace; */
   color: #fff;
   text-decoration: none;
 }
