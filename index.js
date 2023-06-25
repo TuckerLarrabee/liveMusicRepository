@@ -20,6 +20,7 @@ artistSearchBtn.addEventListener("click", (e) => {
 
 window.addEventListener("scroll", () => {
   if (toggleOne.checked) {
+    window.onscroll = null
     toggleOne.checked = false
   }
 })
