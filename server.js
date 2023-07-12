@@ -4,6 +4,7 @@ const port = 3000; // Choose your desired port number
 const cors = require('cors');
 const path = require('path')
 const awsCall = require('./aws')
+const callGoogleSheets = require('./sheet')
 require('dotenv').config()
 
 
@@ -20,6 +21,11 @@ app.get('/audioFiles', async (req, res) => {
     let files = await awsCall()
     res.status(200).json(files)
 });
+
+app.get('/sheetData', async (req,res) => {
+  let sheetData = await callGoogleSheets()
+  res.status(200).json(sheetData)
+})
 
 // app.get('/:artistName', async (req, res) => {
 //     let artistName = req.params.id
