@@ -1,0 +1,32 @@
+{
+  "name": "pcloud",
+  "version": "1.0.0",
+  "description": "Live Music Recordings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuckerLarrabee/pCloud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuckerLarrabee/pCloud/issues"
+  },
+  "homepage": "https://github.com/TuckerLarrabee/pCloud#readme",
+  "dependencies": {
+    "aws-amplify": "^5.3.3",
+    "aws-sdk": "^2.1412.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pcloud-sdk-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
